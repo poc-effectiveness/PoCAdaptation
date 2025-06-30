@@ -66,3 +66,11 @@ This project is intended for **research and academic purposes only**.
  Please ensure any testing is done in isolated, controlled environments.
 
  **Do not** use these PoCs in production or against systems you do not own or have explicit permission to test.
+
+
+
+## 📝 Our PRs to GitHub Advisory Database
+
+We actively contribute to improving the accuracy of CVE records by identifying overlooked affected versions and submitting them to the [GitHub Advisory Database](https://github.com/github/advisory-database).
+
+- [PR #5774 – Add affected version `5.0.0.Alpha1` to CVE-2019-16869](https://github.com/github/advisory-database/pull/5774)
