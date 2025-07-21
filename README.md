@@ -97,6 +97,19 @@ Apache Maven 3.8.8
 Python 3.8.10 (default, Nov 22 2023)
 ```
 
+You can create the environment using Anaconda:
+
+```
+# Create a dedicated Conda environment
+conda create -n diffploit-env python=3.8
+
+# Activate the environment
+conda activate diffploit-env
+
+# Install Python dependencies
+pip install -r requirements.txt
+```
+
 ------
 
 ## 🔑 LLM API Key Setup
@@ -152,7 +165,7 @@ Once your environment and paths are correctly set up, you can test the migration
 ### ✅ Example
 
 ```
-python Diffploit/main_process.py CVE-2021-XXXXX
+python Diffploit/main_process.py CVE-2021-43797
 ```
 
 This will trigger the full migration pipeline for the specified CVE, including:

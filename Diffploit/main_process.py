@@ -148,7 +148,7 @@ def main_process(cve_id: str, from_version: str = None):
             continue
 
         log("Adapter", f"Attempting adaptation from base version {base_version} to {next_version}...", "info")
-        if base_version and run_with_timeout(adapter, base_version, next_version, executor):
+        if base_version and adapter.adapt(base_version, next_version, executor):
             log("Adapter", f"Adaptation complete. Retesting exploit on {next_version}...", "info")
             log("Executor", f"Adaptation + reproduction successful on {next_version}", "success")
             reproduced_versions_sorted.append(next_version)
