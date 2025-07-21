@@ -75,7 +75,7 @@ This section describes the **local environment setup** required to run Diffploit
 
 ### ✅ Prerequisites
 
-Before running `Diffploit`, please make sure the following dependencies are properly installed:
+Before running `Diffploit`, please make sure the following dependencies are properly installed (Linux is preferred):
 
 #### ☕ Java (Required)
 
