@@ -116,6 +116,10 @@ def run_generic_module(cve_id: str, script_path: Path, subfolder: str, versions:
 
 
 MODULES: Dict[str, dict] = {
+    "diffploit": {
+        "script": Path("/PoCAdaptation/Diffploit/main_process.py"),
+        "subfolder": "Diffploit"
+    },
     "diffploit-causing": {
         "script": Path("/PoCAdaptation/Abalation/Diffploit-Causing/main_process.py"),
         "subfolder": "Diffploit-Causing"
