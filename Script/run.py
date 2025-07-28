@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import List
 
 MODULE_LIST = [
+    "diffploit"
     "diffploit-causing",
     "diffploit-supporting",
     "diffploit-annealing",
